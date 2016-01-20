@@ -7,26 +7,26 @@
 依赖jQuery
 
 ```html
-    &lt;script src="cdn.bootcss.com/jquery/1.11.1/jquery.min.js" type="text/javascript"&gt;&lt;/script&gt;   
+    <script src="cdn.bootcss.com/jquery/1.11.1/jquery.min.js" type="text/javascript"></script>   
 ```
 
 引入相应的源文件
 ```html
     <!-- 日历组件 -->
-    &lt;script src="./jquery.calender.js" type="text/javascript"&gt;&lt;/script&gt;   
-    &lt;link rel="stylesheet" href="./calender-theme.css"&gt;   
+    <script src="./jquery.calender.js" type="text/javascript"></script>   
+    <link rel="stylesheet" href="./calender-theme.css">   
     <!-- 日历区间选取组件 -->
-    &lt;script src="./jquery.calender.select.js" type="text/javascript"&gt;&lt;/script&gt;   
-    &lt;link rel="stylesheet" href="./calender-theme-select.css"&gt;   
+    <script src="./jquery.calender.select.js" type="text/javascript"></script>   
+    <link rel="stylesheet" href="./calender-theme-select.css">   
     <!-- 工作周选取组件 -->
-    &lt;script src="./jquery.weeks.js" type="text/javascript"&gt;&lt;/script&gt;   
-    &lt;link rel="stylesheet" href="./weeks-theme.css"&gt;   
+    <script src="./jquery.weeks.js" type="text/javascript"></script>   
+    <link rel="stylesheet" href="./weeks-theme.css">   
 ```
 
 
 创建input元素
 ```html
-&lt;input type="text"&gt;
+<input type="text">
 ```
 
 调用

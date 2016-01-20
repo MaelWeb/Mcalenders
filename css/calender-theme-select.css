@@ -1,0 +1,188 @@
+/* calender */
+
+.calender-layout {
+    background: #fff;
+    border: 2px solid #f5f5f5;
+    box-shadow: 0 0 2px #f5f5f5;
+    font-family: "Times New Roman", Georgia, Serif;
+    z-index: 111;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.calender-layout .l {
+    float: left;
+}
+.calender-layout.hide {
+    display: none;
+}
+.calender-layout .r {
+    float: right;
+}
+
+.calender-layout .tc {
+    text-align: center;
+}
+
+.calender-layout .clearfix {
+    clear: both;
+    overflow: hidden;
+}
+
+.calender-layout .clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: "";
+    clear: both;
+    height: 0;
+}
+
+.calender-layout a:link,
+.calender-layout a:visited {
+    text-decoration: none;
+    color: #0083dc;
+}
+
+.calender-layout .arrow {
+    padding: 0 10px;
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+.calender-layout .arrow:first-child {
+    border-right: 1px solid #ddd;
+}
+
+.calender-layout .arrow.lb {
+    border-left: 1px solid #ddd;
+}
+
+.calender-layout .mid-line {
+    border-right: 2px solid #ddd;
+}
+
+.calender-layout table {
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+.calender-layout td {
+    cursor: pointer;
+    text-align: center;
+    width: 27px;
+    font-family: "Times New Roman", Georgia, Serif;
+    color: #333;
+    padding: 0;
+}
+
+.calender-layout .calender-header {
+    height: 36px;
+    line-height: 36px;
+    vertical-align: middle;
+    background-color: #fff;
+    color: #666666;
+    border-bottom: 1px solid #ddd;
+}
+
+.calender-layout .calender-btn {
+    text-decoration: none;
+    color: #0096ef;
+    padding: 0 10px;
+    font-weight: bold;
+    font-size: 18px;
+    vertical-align: middle;
+}
+
+.calender-layout .calender-content .week {
+    color: #0096ef;
+}
+
+.calender-layout .calender-header-date {
+    width: 168px;
+    margin: 0;
+}
+
+.calender-layout .calender-week-day th {
+    color: #0096ef;
+    background-color: #e3eefe;
+    border-bottom: 1px solid #c9e0ff;
+    padding: 0;
+}
+
+.calender-layout .calender-week-day th div {
+    width: 28px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+}
+
+.calender-layout .calender-curmon {
+    background: #fff;
+    cursor: pointer;
+    text-align: center;
+}
+
+.calender-layout .calender-curmon div {
+    width: 28px;
+    height: 28px;
+    line-height: 28px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+}
+
+.calender-layout .calender-brn {
+    border-right: 0;
+}
+
+.calender-layout .vt {
+    vertical-align: top;
+}
+
+.calender-layout .calender-sure:link, .calender-layout .calender-sure:visited {
+    font-size: 12px;
+    text-decoration: none;
+    background-color: #0096ef;
+    padding: 4px 0;
+    border-radius: 2px;
+    color: #fff;
+    width: 50%;
+    margin: 5px auto;
+    text-align: center;
+    display: block;
+}
+
+.calender-layout .calender-sure:hover {
+    color: #eee;
+}
+
+.calender-layout .calender-content .not-now.week {
+    color: #fff;
+}
+
+.calender-layout .data-pick.on {
+    background-color: #0096ef;
+    color: #fff;
+}
+
+.calender-layout .data-pick.not-on {
+    background-color: #eee;
+    cursor: not-allowed;
+}
+
+.calender-layout .data-pick.radius div {
+    border: 1px solid #0096ef;
+    background-color: #fff;
+    border-radius: 14px;
+    color: #0096ef;
+}
+
+.calender-layout .hide {
+    display: none;
+}
+
+
+/* calender end */
